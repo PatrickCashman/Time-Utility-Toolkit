@@ -1,0 +1,50 @@
+body{
+    background-color: black;
+    color: gray;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#clock {
+    font-size: 5em;
+    text-align: center;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+#countLabel{
+    display: block;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5em;
+    color: gray;
+}
+#btnContainer{
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+.buttons{
+    padding: 10px 20px;
+    font-size: 1.5em;
+    color: white;
+    background-color: grey;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.25;
+}
+.buttons:hover{
+    background-color: rgb(65, 64, 64);
+}
+
+#stopwatch {
+    display: block;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5em;
+    margin-bottom: 20px;
+    color: gray;
+}
